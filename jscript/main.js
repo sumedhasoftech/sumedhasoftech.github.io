@@ -7,7 +7,7 @@ $(window).load(function() {
 		$(".loading").fadeOut(300); 
 		
 		// activate the alerts on window load
-		$(".alert").show(800);	
+		// $(".alert").show(800);	
 });
 
 $(document).ready(function(){
