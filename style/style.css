@@ -130,7 +130,7 @@ ul {
 }
 
 .container {
-	width: 1024px;
+	/*width: 1024px;*/
 	padding: 0 16px;
 	margin:0 auto;
 	position: relative;
@@ -520,6 +520,39 @@ em {
 	resize:none;
 }
 /* css code written by manojmeena.github.io for www.sumedhasoftech.com*/
+.socialIcons
+{
+	
+}
+.socialIcons li
+{
+	
+}
+.socialIcons li a
+{
+	
+}
+.socialIcons li a.fb
+{
+	
+}
+.socialIcons li a.twit
+{
+	
+}
+.socialIcons li a.lnkd
+{
+	
+}
+.socialIcons li a.gpp
+{
+	
+}
+.socialIcons li a.git
+{
+	
+}
+
 /* alerts */
 .alert {
 	position:absolute;
