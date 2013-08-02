@@ -522,34 +522,54 @@ em {
 /* css code written by manojmeena.github.io for www.sumedhasoftech.com*/
 .socialIcons
 {
+    margin: 0;
 	
+    padding: 0;
 }
 .socialIcons li
 {
+    float: left;
 	
+    margin: 3px;
 }
 .socialIcons li a
 {
-	
+    display: block;
+    width: 30px;
+    overflow: hidden;
+    background-size: 30px;
+    text-indent: -999px;
+    background-repeat: no-repeat;
+    height: 38px;
 }
 .socialIcons li a.fb
 {
+    background-image: url(../images/icons/facebook.png);
 	
 }
 .socialIcons li a.twit
 {
+    background-image: url(../images/icons/twitter.png);
 	
 }
 .socialIcons li a.lnkd
 {
+    background-image: url(../images/icons/linkedin1.png);
 	
 }
 .socialIcons li a.gpp
 {
+    background-image: url(../images/icons/googleplus.png);
 	
 }
 .socialIcons li a.git
 {
+    background-image: url(../images/icons/github.png);
+	
+}
+.socialIcons li a.blog
+{
+    background-image: url(../images/icons/rss.png);
 	
 }
 
