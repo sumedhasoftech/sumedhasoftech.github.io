@@ -28,6 +28,14 @@
 </head>
 
 <body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 <div class="loading"> </div>
 <!-- code written by manojmeena.github.io for www.sumedhasoftech.com --> 
 <!-- header section started -->
@@ -138,7 +146,7 @@
                 <a href="#" class="button">Ask for Quote</a> </div>
             <div class="cols ">
                 <h5>Like Us on Facebook</h5>
-                <div class="facepiles"> <img src="images/sharefb.jpg" alt=""/> </div>
+                <div class="facepiles"> <div class="fb-facepile" data-href="https://www.facebook.com/SumedhaSoftech" data-action="Comma separated list of action of action types" data-width="300" data-max-rows="4" data-colorscheme="dark" data-size="small"></div> </div>
             </div>
         </div>
     </div>
